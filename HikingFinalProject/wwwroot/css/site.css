@@ -1,0 +1,550 @@
+/* ==========================/* ==========================
+   GLOBAL / BODY
+========================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1b2a1f; /* dark earthy background */
+    color: #d0e8c1; /* light green text */
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================
+   THEME COLORS
+========================== */
+.bg-green-theme {
+    background-color: #1a3527;
+}
+
+.text-green-theme {
+    color: #9cd36c;
+}
+
+.border-green-theme {
+    border-color: #2e6b4f;
+}
+
+.btn-green {
+    background-color: #1a3527;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+    .btn-green:hover {
+        background-color: #2e6b4f;
+    }
+
+/* ==========================
+   NAVIGATION
+========================== */
+.navbar {
+    background-color: #1a3527;
+    color: #d0e8c1;
+    padding: 0.75rem 1rem;
+}
+
+    .navbar a {
+        color: #d0e8c1;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+
+        .navbar a:hover {
+            color: #9cd36c;
+        }
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* ==========================
+   KPI CARDS (DASHBOARD)
+========================== */
+.kpi-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.kpi-card {
+    flex: 1 1 150px;
+    background-color: #2e6b4f;
+    color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    transition: transform 0.2s;
+}
+
+    .kpi-card:hover {
+        transform: translateY(-3px);
+    }
+
+    .kpi-card h2 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .kpi-card p {
+        font-size: 1rem;
+    }
+
+/* ==========================
+   GRID CONTAINERS
+========================== */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* ==========================
+   CARDS: IMAGES & FEEDBACK
+========================== */
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    background-color: #1e2f22;
+    margin-bottom: 1rem;
+    color: #d0e8c1;
+}
+
+.image-card img, .card-img-top {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.image-card p, .card-text {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    color: #cbe5b4;
+}
+
+.feedback-card {
+    background-color: #1e2f22;
+    border-left: 5px solid #2e6b4f;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+    margin-bottom: 1rem;
+}
+
+    .feedback-card strong {
+        display: block;
+        margin-bottom: 0.25rem;
+        color: #9cd36c;
+    }
+
+    .feedback-card p {
+        font-size: 0.9rem;
+        margin: 0;
+        color: #cbe5b4;
+    }
+
+/* ==========================
+   LISTS
+========================== */
+.list-group-item {
+    background-color: #213b2d;
+    border: none;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    padding: 0.75rem 1rem;
+    color: #d0e8c1;
+}
+
+    .list-group-item:hover {
+        background-color: #2e6b4f;
+    }
+
+/* ==========================
+   BUTTONS
+========================== */
+.btn {
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-primary {
+    background-color: #1a3527;
+    color: #ffffff;
+}
+
+    .btn-primary:hover {
+        background-color: #2e6b4f;
+    }
+
+.btn-secondary {
+    background-color: #2e6b4f;
+    color: #ffffff;
+}
+
+    .btn-secondary:hover {
+        background-color: #3a7c5a;
+    }
+
+/* ==========================
+   MODALS
+========================== */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #1b2a1f;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    color: #d0e8c1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.modal .close {
+    color: #9cd36c;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .modal .close:hover {
+        color: #cbe5b4;
+    }
+
+/* ==========================
+   TOAST NOTIFICATIONS
+========================== */
+#toastContainer {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1100;
+}
+
+.toast {
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    opacity: 0.95;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+    .toast.success {
+        background-color: #2e6b4f;
+    }
+
+    .toast.error {
+        background-color: #c0392b;
+    }
+
+    .toast.fade-out {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+/* ==========================
+   MAP POPUPS
+========================== */
+.mapboxgl-popup-content {
+    background-color: #1b2a1f !important;
+    color: #d0e8c1 !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.35) !important;
+}
+
+    .mapboxgl-popup-content img {
+        border-radius: 8px;
+        max-width: 100%;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .mapboxgl-popup-content:hover {
+        box-shadow: 0 0 25px #2e6b4f;
+        transition: box-shadow 0.3s ease;
+    }
+
+.mapboxgl-popup-tip {
+    border-top-color: #1a3527;
+}
+
+/* ==========================
+   MARKERS
+========================== */
+.marker {
+    opacity: 0;
+    transform: scale(0.3);
+    transition: opacity 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+    .marker.show {
+        opacity: 1;
+        animation: bounceIn 0.5s forwards;
+    }
+
+    .marker.hide {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    .marker:hover {
+        transform: scale(1.5);
+        z-index: 1000;
+    }
+
+    .marker.easy {
+        box-shadow: 0 0 12px #9cd36c;
+    }
+
+    .marker.moderate {
+        box-shadow: 0 0 16px #2e6b4f;
+    }
+
+    .marker.hard {
+        box-shadow: 0 0 20px #1a3527;
+    }
+
+/* ==========================
+   BOUNCE ANIMATION
+========================== */
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.3);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    70% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ==========================
+   PULSING GLOW EFFECT
+========================== */
+.marker.easy.active-pulse {
+    animation: pulseGlowEasy 2s infinite;
+}
+
+.marker.moderate.active-pulse {
+    animation: pulseGlowModerate 2s infinite;
+}
+
+.marker.hard.active-pulse {
+    animation: pulseGlowHard 2s infinite;
+}
+
+@keyframes pulseGlowEasy {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 12px #9cd36c;
+    }
+
+    50% {
+        transform: scale(1.2);
+        box-shadow: 0 0 24px #9cd36c;
+    }
+}
+
+@keyframes pulseGlowModerate {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 16px #2e6b4f;
+    }
+
+    50% {
+        transform: scale(1.2);
+        box-shadow: 0 0 32px #2e6b4f;
+    }
+}
+
+@keyframes pulseGlowHard {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 20px #1a3527;
+    }
+
+    50% {
+        transform: scale(1.2);
+        box-shadow: 0 0 40px #1a3527;
+    }
+}
+
+/* ==========================
+   GENERAL FOREST THEME ENHANCEMENTS
+========================== */
+body, .modal-content, .card, .feedback-card, table.dataTable {
+    background-color: #1b2a1f;
+    color: #d0e8c1;
+}
+
+.btn-primary, .btn-green {
+    background-color: #1a3527;
+}
+
+    .btn-primary:hover, .btn-green:hover {
+        background-color: #2e6b4f;
+    }
+
+.kpi-card {
+    background-color: #2e6b4f;
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+/* ==========================
+   MAPS
+========================== */
+#map, #parksMap, #routesMap, #routePointsMap, #dashboardMap {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+/* ==========================
+   DASHBOARD IMAGE CAROUSEL
+========================== */
+#imageCarousel {
+    background-color: #1a3527;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.carousel-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Each carousel "slide" contains one or multiple images */
+.carousel-item {
+    flex: 1 1 calc(33.333% - 1rem);
+    max-width: calc(33.333% - 1rem);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .carousel-item img {
+        width: 100%;
+        height: 230px; /* ✅ consistent height */
+        object-fit: cover; /* ✅ scale without distortion */
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .carousel-item img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(156, 211, 108, 0.6); /* soft green glow */
+        }
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(26, 53, 39, 0.7);
+    color: #d0e8c1;
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Lightbox modal image */
+#imageLightbox img {
+    max-height: 80vh;
+    width: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+/* ==========================
+   DASHBOARD FEEDBACK TABLE
+========================== */
+#feedbackTableBody tr:hover {
+    background-color: #2e6b4f !important;
+    transition: background-color 0.2s ease;
+}
+
+/* ==========================
+   RESPONSIVE GRID ADJUSTMENTS
+========================== */
+@media (max-width: 992px) {
+    .carousel-item {
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 1200px) {
+    .carousel-item {
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+        .carousel-item img {
+            height: 200px; /* slightly smaller for phones */
+        }
+}
+
+@media (max-width: 768px) {
+    .kpi-container {
+        flex-direction: column;
+    }
+
+    .list-group-item {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        width: 100% !important;
+    }
+}

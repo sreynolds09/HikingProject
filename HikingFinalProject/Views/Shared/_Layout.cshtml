@@ -1,0 +1,111 @@
+﻿@using HikingFinalProject.DTOs
+@inject IConfiguration Configuration
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Hiking Project</title>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+    <!-- DataTables -->
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+
+    <!-- Mapbox -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css" rel="stylesheet" />
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <style>
+        .modal-backdrop.show {
+            background-color: rgba(0,0,0,0.6);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-green-theme mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand text-green-theme" asp-controller="Dashboard" asp-action="Index">Hiking Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" asp-controller="Dashboard" asp-action="Index">Main Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Parks" asp-action="Index">Parks</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Routes" asp-action="Index">Routes</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Dashboard" asp-action="About">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        @RenderBody()
+    </main>
+
+    <footer class="footer mt-4 text-center text-muted">
+        <p>&copy; @DateTime.Now.Year - Hiking Project</p>
+    </footer>
+
+    <!-- 🌍 Global Modals & UI Elements -->
+    <div class="modal fade" id="imagePreviewModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-body text-center">
+                    <img id="imagePreviewModalImg" class="img-fluid rounded" alt="Preview" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed top-0 end-0 p-3" id="toastContainer"></div>
+
+    <div id="globalLoader" class="d-none position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 d-flex justify-content-center align-items-center" style="z-index: 2000;">
+        <div class="spinner-border text-light" role="status"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
+
+    <!-- Global JS Config -->
+    <script>
+        window.MAPBOX_TOKEN = "@Configuration["Mapbox:Token"]";
+    </script>
+
+    <!-- Unified HikingApp Script -->
+    <script src="~/js/site.js" defer></script>
+
+    <!-- Optional Startup Log (safe to remove later) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.HikingApp?.initAll) {
+                console.log("🚀 HikingApp initializing...");
+                window.HikingApp.initAll();
+            }
+        });
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+
+
+
+
+
+

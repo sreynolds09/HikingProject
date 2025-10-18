@@ -1,0 +1,49 @@
+﻿@using HikingFinalProject.DTOs.Routes
+@model IEnumerable<RouteFeedbackDto>
+@{
+    ViewData["Title"] = "Route Feedback";
+}
+
+<div class="container-fluid">
+    <h1>Route Feedback</h1>
+
+    <div class="d-flex justify-content-between mb-3">
+        <a asp-action="Create" class="btn btn-primary">Add Feedback</a>
+        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteAllFeedbackModal">
+            Delete All Feedback
+        </button>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Route</th>
+                <th>User</th>
+                <th>Rating</th>
+                <th>Comments</th>
+                <th>Date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var fb in Model)
+            {
+                <tr>
+                    <td>@fb.RouteName</td>
+                    <td>@fb.UserName</td>
+                    <td>@fb.Rating</td>
+                    <td>@fb.Comments</td>
+                    <td>@fb.CreatedAt.ToShortDateString()</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@fb.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@fb.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@await Html.PartialAsync("_SharedModals")
+
+

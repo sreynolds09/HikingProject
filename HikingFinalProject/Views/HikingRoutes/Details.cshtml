@@ -1,0 +1,119 @@
+﻿@model HikingRouteDto
+@inject IConfiguration Configuration
+@using HikingFinalProject.DTOs.Routes
+@using Newtonsoft.Json
+
+@{
+    ViewData["Title"] = "Route Details";
+    var mapboxToken = Configuration["Mapbox:Token"];
+}
+
+<div class="container mt-4">
+    <h1>@Model.RouteName</h1>
+    <p><strong>Park:</strong> @Model.ParkName</p>
+    <p><strong>Difficulty:</strong> @Model.Difficulty</p>
+
+    @if ((Model.Distance ?? 0) > 0)
+    {
+        <p><strong>Distance:</strong> @( (Model.Distance ?? 0).ToString("0.0") ) miles</p>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.Description))
+    {
+        <p><strong>Description:</strong> @Model.Description</p>
+    }
+
+    <hr />
+
+    <!-- Route Map -->
+    <h3>Route Map</h3>
+    <div id="routesMap" style="width:100%; height:400px;"></div>
+
+    <hr />
+
+    <!-- Images -->
+    <div class="d-flex justify-content-between align-items-center">
+        <h3>Images</h3>
+        <button class="btn btn-success"
+                data-bs-toggle="modal"
+                data-bs-target="#routeImageUploadModal"
+                data-routeid="@Model.RouteID">
+            Upload Images
+        </button>
+    </div>
+
+    <div id="routeImagesContainer" class="mt-3">
+        <p>Loading images...</p>
+    </div>
+
+    <hr />
+
+    <!-- Feedback -->
+    <h3>Feedback</h3>
+    @if (Model.RecentFeedback?.Any() ?? false)
+    {
+        <ul class="list-group">
+            @foreach (var fb in Model.RecentFeedback)
+            {
+                <li class="list-group-item">
+                    <strong>@fb.UserName</strong>
+                    <span class="text-warning">★ @fb.Rating</span>
+                    <br />
+                    <span>@fb.Comments</span>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No feedback yet. Be the first to leave a review!</p>
+    }
+
+    <hr />
+
+    <a asp-controller="HikingRoutes" asp-action="Index" class="btn btn-secondary">Back to Routes</a>
+</div>
+
+@await Html.PartialAsync("_SharedModals")
+
+@section Scripts {
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.21.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.21.0/mapbox-gl.css" rel="stylesheet" />
+
+    <script>
+        mapboxgl.accessToken = '@mapboxToken';
+
+        var points = @Html.Raw(JsonConvert.SerializeObject(
+                    Model.RecentPoints ?? new List<RoutePointDto>()
+            ));
+
+    var map = new mapboxgl.Map({
+        container: 'routesMap',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: points.length ? [points[0].Longitude, points[0].Latitude] : [-86.7816, 35.0456],
+        zoom: 12
+    });
+
+        points.forEach(function(p) {
+            new mapboxgl.Marker()
+                .setLngLat([p.Longitude, p.Latitude])
+                .addTo(map);
+        });
+
+        // Load route images dynamically
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof loadRouteImages === "function") {
+                loadRouteImages(@Model.RouteID);
+            }
+        });
+
+        // Pre-fill routeId when opening upload modal
+        var uploadModal = document.getElementById("routeImageUploadModal");
+        uploadModal?.addEventListener("show.bs.modal", function (event) {
+            var button = event.relatedTarget;
+            var routeId = button.dataset.routeid;
+            uploadModal.querySelector("#uploadRouteID").value = routeId;
+        });
+    </script>
+}
+

@@ -1,0 +1,72 @@
+﻿@using HikingFinalProject.DTOs.Routes
+@model RouteImageDto
+
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form id="imageForm" enctype="multipart/form-data">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Upload Image</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Hidden field to track which route this image belongs to -->
+                    <input type="hidden" id="imageRouteId" name="RouteID" />
+
+                    <div class="mb-3">
+                        <label for="imageFile" class="form-label">Select Image</label>
+                        <input type="file" class="form-control" name="FileData" id="imageFile" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="caption" class="form-label">Caption</label>
+                        <input type="text" class="form-control" name="Caption" id="caption" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary" id="saveImageBtn">Upload</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Handle image upload via AJAX
+            const imageForm = document.getElementById("imageForm");
+
+            imageForm.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                const formData = new FormData(imageForm);
+                const routeId = document.getElementById("imageRouteId").value;
+
+                fetch(`/RouteImages/Save/${routeId}`, {
+                    method: "POST",
+                    body: formData
+                })
+                .then(r => r.json())
+                .then(result => {
+                    if (result.success) {
+                        // Refresh route images on page or reload dynamically
+                        loadRouteImages(routeId);
+                        bootstrap.Modal.getInstance(document.getElementById("imageModal")).hide();
+                    } else {
+                        alert("Failed to upload image: " + result.message);
+                    }
+                })
+                .catch(err => console.error(err));
+            });
+        });
+
+        // Helper: preload routeId when opening modal
+        function openImageModal(routeId) {
+            document.getElementById("imageRouteId").value = routeId;
+            const modal = new bootstrap.Modal(document.getElementById("imageModal"));
+            modal.show();
+        }
+    </script>
+}

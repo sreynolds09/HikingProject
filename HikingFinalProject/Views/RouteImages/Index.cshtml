@@ -1,0 +1,25 @@
+﻿@using HikingFinalProject.DTOs.Routes
+@model IEnumerable<RouteImageDto>
+
+@{
+    ViewData["Title"] = "Route Images";
+}
+
+<div class="container-fluid">
+    <h1 class="mb-4">Route Images</h1>
+
+    <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#createRouteImageModal">Add Image</button>
+
+    <table id="routeImagesTable" class="table table-striped">
+        <thead>
+            <tr>
+                <th>Caption</th>
+                <th>Image</th>
+                <th>Route</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+@await Html.PartialAsync("_SharedModals")

@@ -1,0 +1,28 @@
+﻿@using HikingFinalProject.DTOs.Routes
+@model IEnumerable<RoutePointDto>
+
+@{
+    ViewData["Title"] = "Route Points";
+}
+
+<div class="container-fluid">
+    <h1 class="mb-4">Route Points</h1>
+
+    <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#createRoutePointModal">Add Point</button>
+
+    <table id="routePointsTable" class="table table-striped">
+        <thead>
+            <tr>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th>Route</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Map</h2>
+    <div id="routePointsMap" style="width:100%; height:400px;"></div>
+</div>
+@await Html.PartialAsync("_SharedModals")

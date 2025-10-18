@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "About Dashboard";
+}
+
+<div class="container mt-4">
+    <h1>@ViewData["Title"]</h1>
+    <p>This dashboard provides an overview of parks, routes, feedback, and images in HikingProject.</p>
+
+    <ul>
+        <li>View total parks, routes, feedback, and images.</li>
+        <li>See recent activity for routes, feedback, and images.</li>
+        <li>Interactive map with markers for routes and parks.</li>
+        <li>Admin actions for creating, editing, or deleting parks and routes.</li>
+    </ul>
+
+    <a asp-controller="Dashboard" asp-action="Index" class="btn btn-primary">Back to Dashboard</a>
+</div>

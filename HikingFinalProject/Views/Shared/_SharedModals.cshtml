@@ -1,0 +1,241 @@
+﻿@using HikingFinalProject.DTOs
+@using HikingFinalProject.DTOs.Routes
+@* Action buttons template *@
+<template id="actionButtonsTemplate">
+    <div class="btn-group btn-group-sm" role="group">
+        <button type="button" class="btn btn-outline-primary" data-action="view">View</button>
+        <button type="button" class="btn btn-outline-secondary" data-action="edit">Edit</button>
+        <button type="button" class="btn btn-outline-danger" data-action="delete">Delete</button>
+        <button type="button" class="btn btn-outline-success" data-action="upload">Upload</button>
+        <button type="button" class="btn btn-outline-warning" data-action="feedback">Feedback</button>
+    </div>
+</template>
+
+@* Create Park Modal *@
+<div class="modal fade" id="createParkModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title">Create / Edit Park</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body">
+                <form data-entity="park">
+                    <div class="mb-2">
+                        <label class="form-label">Name</label>
+                        <input class="form-control" name="Name" required />
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label">Location</label>
+                        <input class="form-control" name="Location" />
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label">Description</label>
+                        <textarea class="form-control" name="Description" rows="3"></textarea>
+                    </div>
+                    <div class="text-end">
+                        <button class="btn btn-primary" type="submit">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Create Route Modal *@
+<div class="modal fade" id="createRouteModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title">Create / Edit Route</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body">
+                <form data-entity="route">
+                    <div class="mb-2">
+                        <label class="form-label">Name</label>
+                        <input class="form-control" name="Name" required />
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label">Park</label>
+                        <select id="routeParkDropdown" name="ParkId" class="form-select"></select>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mb-2">
+                            <label class="form-label">Difficulty</label>
+                            <select class="form-select" name="Difficulty">
+                                <option value="">—</option>
+                                <option>Easy</option>
+                                <option>Moderate</option>
+                                <option>Hard</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mb-2">
+                            <label class="form-label">Distance (mi)</label>
+                            <input class="form-control" type="number" step="0.01" name="Distance" />
+                        </div>
+                    </div>
+                    <div class="text-end">
+                        <button class="btn btn-primary" type="submit">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Upload Route Image Modal *@
+<div class="modal fade" id="uploadRouteImageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title">Upload Route Images</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body">
+                <form id="uploadRouteImageForm" data-entity="routeimage" enctype="multipart/form-data">
+                    <input type="hidden" name="RouteId" />
+                    <div class="mb-2">
+                        <label class="form-label">Route</label>
+                        <select id="routeImageRouteDropdown" class="form-select"></select>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label">Images</label>
+                        <input type="file" name="Files" class="form-control" accept="image/*" multiple />
+                    </div>
+                    <div id="routeImagePreview" class="d-flex flex-wrap"></div>
+                    <div class="text-end mt-2">
+                        <button class="btn btn-primary" type="submit">Upload</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Upload GPX Modal *@
+<div class="modal fade" id="uploadGpxModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title">Upload GPX</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body">
+                <form id="gpxUploadForm" data-entity="gpx" enctype="multipart/form-data">
+                    <div class="mb-2">
+                        <label class="form-label">Route</label>
+                        <select id="gpxRouteDropdown" name="RouteId" class="form-select"></select>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label">File</label>
+                        <input type="file" name="File" accept=".gpx,application/gpx+xml" class="form-control" />
+                    </div>
+                    <div id="gpxPreview" class="small text-muted"></div>
+                    <div class="text-end mt-2">
+                        <button class="btn btn-primary" type="submit">Upload</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Feedback Modal *@
+<div class="modal fade" id="feedbackModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title">Submit Feedback</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body">
+                <form id="feedbackForm" data-entity="feedback">
+                    <div class="mb-2">
+                        <label class="form-label">Route</label>
+                        <select id="routeFeedbackDropdown" name="RouteId" class="form-select"></select>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label">User</label>
+                        <input class="form-control" name="User" />
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label">Comments</label>
+                        <textarea class="form-control" name="Comments" rows="3"></textarea>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label">Rating</label>
+                        <input class="form-control" name="Rating" type="number" min="1" max="5" value="5" />
+                    </div>
+                    <div class="text-end">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Generic View Modal *@
+<div class="modal fade" id="viewModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title">Details</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body" id="viewModalContent">
+                <div class="text-muted">Loading…</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Delete Confirm Modal *@
+<div class="modal fade" id="deleteConfirmModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title">Confirm Delete</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body">
+                <p id="deleteConfirmText">Delete item?</p>
+                <div class="text-end">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button id="confirmDeleteBtn" class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Small UI helpers inside partial: image/Gpx previews (non-critical; heavy logic in site.js)
+        (function() {
+            const imgInput = document.getElementById('routeImageFile');
+            const imgPreview = document.getElementById('routeImagePreview');
+            if (imgInput && imgPreview) {
+                imgInput.addEventListener('change', e => {
+                    imgPreview.innerHTML = '';
+                    Array.from(e.target.files || []).forEach(file => {
+                        if (!file.type.startsWith('image/')) return;
+                        const r = new FileReader();
+                        r.onload = ev => {
+                            const img = document.createElement('img');
+                            img.src = ev.target.result;
+                            img.className = 'img-thumb me-2 mb-2';
+                            imgPreview.appendChild(img);
+                        };
+                        r.readAsDataURL(file);
+                    });
+                });
+            }
+
+            const gpxInput = document.getElementById('gpxFile');
+            if (gpxInput) {
+                gpxInput.addEventListener('change', async () => {
+                    const f = gpxInput.files?.[0];
+                    if (!f) { document.getElementById('gpxPreview')?.classList.add('d-none'); return; }
+                    const text = await f.text();
+                    const parser = new DOMParser();
+                    const xml = parser.parseFromString(text, 'application/xml');
+                    const trkpts = Array.from(xml.querySelectorAll('trkpt, wpt'));
+                    document.getElementById('gpxFileName').textContent = f.name;
+                    document.getElementById('gpxPointCount').textContent = trkpts.length;
+                    // quick haversine (approx)
+                    function toRad(v){return v*Math.PI/180;}
+                    function hv(a,b){const R=3958.8;const dLat=toRad(b.lat-a.lat);const dLon=toRad(b.lon-a.lon);const lat1=toRad(a.lat), lat2=toRad(b.lat);const s=Math.sin(dLat/2)**2+Math.cos(lat1)*Math.cos(lat2)*Math.sin(dLon/2)**2; return 2*R*Math.asin(Math.sqrt(s));}
+                    const coords = trkpts.map(pt => ({lat: parseFloat(pt.getAttribute('lat')||0), lon: parseFloat(pt.getAttribute('lon')||0)})).filter(p=>!isNaN(p.lat+p.lon));
+                    let total=0; for (let i=1;i<coords.length;i++) total+=hv(coords[i-1],coords[i]);
+                    document.getElementById('gpxDistance').textContent = total.toFixed(2);
+                    document.getElementById('gpxPreview')?.classList.remove('d-none');
+                });
+            }
+        })();
+    </script>
+}
+
+
+
+

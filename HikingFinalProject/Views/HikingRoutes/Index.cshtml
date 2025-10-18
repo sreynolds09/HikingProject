@@ -1,0 +1,92 @@
+﻿@using HikingFinalProject.DTOs.Routes
+@model IEnumerable<HikingRouteDto>
+@inject IConfiguration Configuration
+
+@{
+    ViewData["Title"] = "Routes";
+    var mapboxToken = Configuration["Mapbox:Token"];
+}
+
+<div class="container-fluid">
+    <h1 class="mb-4">Routes Dashboard</h1>
+
+    <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#createRouteModal">Add New Route</button>
+
+    <table id="routesTable" class="table table-striped">
+        <thead>
+            <tr>
+                <th>Route Name</th>
+                <th>Difficulty</th>
+                <th>Park</th>
+                <th>Distance (mi)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var route in Model)
+            {
+                <tr>
+                    <td>@route.RouteName</td>
+                    <td>@route.Difficulty</td>
+                    <td>@route.ParkName</td>
+                    <td>@route.Distance?.ToString("F1")</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editRouteModal"
+                                data-editrouteid="@route.RouteID"
+                                data-editroutename="@route.RouteName"
+                                data-editroutedifficulty="@route.Difficulty"
+                                data-editroutepark="@route.ParkID"
+                                data-editroutedistance="@route.Distance">
+                            Edit
+                        </button>
+
+                        <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteRouteModal"
+                                data-deleterouteid="@route.RouteID">
+                            Delete
+                        </button>
+
+                        <button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#uploadRouteImageModal"
+                                data-routeid="@route.RouteID">
+                            Upload Image
+                        </button>
+
+                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#createRoutePointModal"
+                                data-routeid="@route.RouteID">
+                            Add Point
+                        </button>
+
+                        <button class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#addFeedbackModal"
+                                data-routeid="@route.RouteID">
+                            Feedback
+                        </button>
+
+                        <button class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#uploadGpxModal"
+                                data-routeid="@route.RouteID">
+                            Upload GPX
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Map</h2>
+    <div id="routesMap" style="width:100%;height:400px;"></div>
+</div>
+
+@await Html.PartialAsync("_SharedModals")
+
+@section Scripts {
+    <script>
+        window.dashboardType = 'routes';
+        window.MAPBOX_TOKEN = '@mapboxToken';
+        window.dashboardMarkers = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model ?? new List<HikingRouteDto>()));
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.HikingApp?.initAll) HikingApp.initAll();
+        });
+    </script>
+}
+
+
+
+

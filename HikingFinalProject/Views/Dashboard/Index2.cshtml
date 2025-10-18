@@ -1,0 +1,128 @@
+﻿using HikingProject.DTOs.Dashboard;
+using HikingProject.DTOs.Routes;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Net.Http.Json;
+
+namespace HikingProject.Views
+{
+    public class IndexModel : PageModel
+    {
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ILogger<IndexModel>
+    _logger;
+    private readonly IConfiguration _config;
+
+    public DashboardDto Dashboard { get; set; } = new();
+
+    public IndexModel(IHttpClientFactory httpClientFactory, ILogger<IndexModel>
+        logger, IConfiguration config)
+        {
+        _httpClientFactory = httpClientFactory;
+        _logger = logger;
+        _config = config;
+        }
+
+        public async Task<IActionResult>
+            OnGetAsync()
+            {
+            try
+            {
+            var client = _httpClientFactory.CreateClient();
+            client.BaseAddress = new Uri(_config["ApiBaseUrl"] ?? "https://localhost:5001/");
+
+            // Fetch everything in parallel
+            var parksTask = client.GetFromJsonAsync<IEnumerable<ParkDto>>("api/parks");
+                var routesTask = client.GetFromJsonAsync<IEnumerable<HikingRouteDto>>("api/routes");
+                var feedbackTask = client.GetFromJsonAsync<IEnumerable<RouteFeedbackDto>>("api/routefeedback");
+                var imagesTask = client.GetFromJsonAsync<IEnumerable<RouteImageDto>>("api/routeimages");
+                var pointsTask = client.GetFromJsonAsync<IEnumerable<RoutePointDto>>("api/gpxpoints");
+
+                await Task.WhenAll(parksTask, routesTask, feedbackTask, imagesTask, pointsTask);
+
+                var parks = parksTask.Result?.ToList() ?? new();
+                var routes = routesTask.Result?.ToList() ?? new();
+                var feedback = feedbackTask.Result?.ToList() ?? new();
+                var images = imagesTask.Result?.ToList() ?? new();
+                var points = pointsTask.Result?.ToList() ?? new();
+
+                // Attach related data to routes
+                foreach (var route in routes)
+                {
+                    route.RecentFeedback = feedback.Where(f => f.RouteID == route.RouteID).OrderByDescending(f => f.CreatedAt).Take(5);
+                    route.RecentImages = images.Where(i => i.routeId == route.RouteID).OrderByDescending(i => i.createdAt).Take(5);
+                    route.RecentPoints = points.Where(p => p.RouteID == route.RouteID)
+                                               .OrderBy(p => p.pointOrder)
+                                               .ToList();
+
+                    // Derive coordinates for Mapbox (simplified first-last)
+                    if (route.RecentPoints.Count > 0)
+                    {
+                        route.Latitude = route.RecentPoints.First().latitude;
+                        route.Longitude = route.RecentPoints.First().longitude;
+                    }
+                }
+
+                // Attach routes to parks
+                foreach (var park in parks)
+                {
+                    park.Routes = routes.Where(r => r.ParkID == park.ParkID).ToList();
+                    park.RecentImages = images.Where(i =>
+                        park.Routes.Any(r => r.RouteID == i.routeId))
+                        .Select(i => new DashboardImageDto
+                        {
+                            ImageURL = i.imageURL,
+                            Caption = i.caption ?? "",
+                            RouteID = i.routeId,
+                            ParkID = park.ParkID
+                        }).Take(5).ToList();
+                }
+
+                Dashboard = new DashboardDto
+                {
+                    Parks = parks,
+                    Routes = routes,
+                    RecentFeedback = feedback
+                        .OrderByDescending(f => f.CreatedAt)
+                        .Take(10)
+                        .Select(f => new DashboardFeedbackDto
+                        {
+                            UserName = f.UserName ?? "Anonymous",
+                            Comments = f.Comments ?? "",
+                            Rating = f.Rating ?? 0,
+                            RouteName = f.RouteName ?? "",
+                            CreatedAt = f.CreatedAt,
+                            RouteID = f.RouteID,
+                            ParkID = routes.FirstOrDefault(r => r.RouteID == f.RouteID)?.ParkID ?? 0
+                        }),
+                    RecentImages = images
+                        .OrderByDescending(i => i.createdAt)
+                        .Take(10)
+                        .Select(i => new DashboardImageDto
+                        {
+                            ImageURL = i.imageURL,
+                            Caption = i.caption ?? "",
+                            RouteID = i.routeId,
+                            ParkID = routes.FirstOrDefault(r => r.RouteID == i.routeId)?.ParkID ?? 0
+                        }),
+
+                    TotalParks = parks.Count,
+                    TotalRoutes = routes.Count,
+                    TotalFeedback = feedback.Count,
+                    TotalImages = images.Count,
+                    PointCount = points.Count,
+                    AverageRouteRating = feedback.Any() ? feedback.Average(f => f.Rating ?? 0) : 0
+                };
+
+                return Page();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading dashboard data");
+                return StatusCode(500, "Failed to load dashboard data");
+            }
+        }
+    }
+}
+
+

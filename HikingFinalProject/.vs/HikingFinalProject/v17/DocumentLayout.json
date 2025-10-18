@@ -1,0 +1,1327 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\shared\\_sharedmodals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\shared\\_sharedmodals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sarar\\Downloads\\_SharedModals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\hikingroutes\\_routemodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\hikingroutes\\_routemodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\services\\routepointservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:services\\routepointservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\routepointrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\routepointrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\interfaces\\iroutepointrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\interfaces\\iroutepointrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\services\\parkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:services\\parkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\parkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\parkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\services\\hikingrouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:services\\hikingrouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\interfaces\\iparkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\interfaces\\iparkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\dashboard\\dashboardstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\dashboard\\dashboardstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\dashboard\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\dashboard\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\mvccontrollers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\mvccontrollers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\apicontrollers\\dashboardapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\apicontrollers\\dashboardapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\interfaces\\idappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\interfaces\\idappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\filters\\fileuploadoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:filters\\fileuploadoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\apicontrollers\\parksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\apicontrollers\\parksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\hikingroutes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\hikingroutes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\parks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\parks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\routefeedback\\_feedbackmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\routefeedback\\_feedbackmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\routefeedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\routefeedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\routeimages\\_imagemodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\routeimages\\_imagemodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\routeimages\\_imageuploadmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\routeimages\\_imageuploadmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\routeimages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\routeimages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\routepoints\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\routepoints\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\routes\\routepointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\routes\\routepointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\routes\\routeimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\routes\\routeimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\routes\\routefeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\routes\\routefeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\routes\\hikingroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\routes\\hikingroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\routes\\parkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\routes\\parkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\hikingroutes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\hikingroutes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\parks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\parks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\views\\dashboard\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:views\\dashboard\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\services\\routeimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:services\\routeimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\services\\routefeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:services\\routefeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\services\\mapboxgeocodingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:services\\mapboxgeocodingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\interfaces\\irouteimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\interfaces\\irouteimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\interfaces\\iroutefeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\interfaces\\iroutefeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\interfaces\\ihikingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\interfaces\\ihikingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\interfaces\\idashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\interfaces\\idashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\routeimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\routeimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\routefeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\routefeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\hikingrouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\hikingrouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\repositories\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:repositories\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\models\\routepoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:models\\routepoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\models\\routeimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:models\\routeimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\models\\routefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:models\\routefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\models\\park.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:models\\park.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\models\\hikingroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:models\\hikingroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\mapbox\\mapboxresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\mapbox\\mapboxresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\mapbox\\mapboxgeometrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\mapbox\\mapboxgeometrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\mapbox\\mapboxfeaturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\mapbox\\mapboxfeaturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\map\\markerroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\map\\markerroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\map\\markerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\map\\markerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\mvccontrollers\\routepointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\mvccontrollers\\routepointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\mvccontrollers\\routeimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\mvccontrollers\\routeimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\mvccontrollers\\routefeedbackcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\mvccontrollers\\routefeedbackcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\mvccontrollers\\parkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\mvccontrollers\\parkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\mvccontrollers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\mvccontrollers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\mvccontrollers\\hikingroutescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\mvccontrollers\\hikingroutescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\apicontrollers\\routepointsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\apicontrollers\\routepointsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\apicontrollers\\routeimagesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\apicontrollers\\routeimagesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\apicontrollers\\routefeedbackapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\apicontrollers\\routefeedbackapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\controllers\\apicontrollers\\hikingroutesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:controllers\\apicontrollers\\hikingroutesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\dashboard\\routecountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\dashboard\\routecountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\dashboard\\dashboardroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\dashboard\\dashboardroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\dashboard\\dashboardimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\dashboard\\dashboardimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|c:\\users\\sarar\\onedrive\\desktop\\repos\\hikingprojectfinal\\hikingfinalproject\\dtos\\dashboard\\dashboardfeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F951A79-3E04-44AB-AADE-20FA8BBF34E5}|HikingFinalProject.csproj|solutionrelative:dtos\\dashboard\\dashboardfeedbackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_RouteModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\HikingRoutes\\_RouteModal.cshtml",
+              "RelativeDocumentMoniker": "Views\\HikingRoutes\\_RouteModal.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\HikingRoutes\\_RouteModal.cshtml",
+              "RelativeToolTip": "Views\\HikingRoutes\\_RouteModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:29:27.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:44:20.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:26:27.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoutePointService.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\RoutePointService.cs",
+              "RelativeDocumentMoniker": "Services\\RoutePointService.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\RoutePointService.cs",
+              "RelativeToolTip": "Services\\RoutePointService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAApwCQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:24:51.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAALIDAAAAAAAAAAAQwP0DAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-18T21:34:22.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_SharedModals.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\Downloads\\_SharedModals.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\_SharedModals.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\Downloads\\_SharedModals.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\_SharedModals.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T22:39:58.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_SharedModals.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Shared\\_SharedModals.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_SharedModals.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Shared\\_SharedModals.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_SharedModals.cshtml",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAgwL0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:28:10.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoutePointRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\RoutePointRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RoutePointRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\RoutePointRepository.cs",
+              "RelativeToolTip": "Repositories\\RoutePointRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:22:28.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\DapperContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\DapperContext.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\DapperContext.cs",
+              "RelativeToolTip": "Repositories\\DapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:21:21.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAApwCoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:49:12.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRoutePointRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IRoutePointRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRoutePointRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IRoutePointRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRoutePointRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:23:23.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ParkService.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\ParkService.cs",
+              "RelativeDocumentMoniker": "Services\\ParkService.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\ParkService.cs",
+              "RelativeToolTip": "Services\\ParkService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:24:06.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\ParkRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ParkRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\ParkRepository.cs",
+              "RelativeToolTip": "Repositories\\ParkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:21:53.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HikingRouteService.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\HikingRouteService.cs",
+              "RelativeDocumentMoniker": "Services\\HikingRouteService.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\HikingRouteService.cs",
+              "RelativeToolTip": "Services\\HikingRouteService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIA3wCYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:23:44.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IParkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IParkRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IParkRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IParkRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IParkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:23:05.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:56:43.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DashboardStatsDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\DashboardStatsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dashboard\\DashboardStatsDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\DashboardStatsDto.cs",
+              "RelativeToolTip": "DTOs\\Dashboard\\DashboardStatsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:54:59.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DashboardDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\DashboardDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dashboard\\DashboardDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\DashboardDto.cs",
+              "RelativeToolTip": "DTOs\\Dashboard\\DashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:51:06.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MvcControllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\MvcControllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:46:32.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DashboardApiController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\DashboardApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiControllers\\DashboardApiController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\DashboardApiController.cs",
+              "RelativeToolTip": "Controllers\\ApiControllers\\DashboardApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:45:13.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "Services\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\DashboardService.cs",
+              "RelativeToolTip": "Services\\DashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:47:34.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IDapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IDapperContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IDapperContext.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IDapperContext.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IDapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:22:45.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FileUploadOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Filters\\FileUploadOperationFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\FileUploadOperationFilter.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Filters\\FileUploadOperationFilter.cs",
+              "RelativeToolTip": "Filters\\FileUploadOperationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:29:49.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Mappings\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Mappings\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Mappings\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:36:08.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Parks\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parks\\Details.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Parks\\Details.cshtml",
+              "RelativeToolTip": "Views\\Parks\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:29:14.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_FeedbackModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RouteFeedback\\_FeedbackModal.cshtml",
+              "RelativeDocumentMoniker": "Views\\RouteFeedback\\_FeedbackModal.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RouteFeedback\\_FeedbackModal.cshtml",
+              "RelativeToolTip": "Views\\RouteFeedback\\_FeedbackModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:29:04.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\HikingRoutes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\HikingRoutes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\HikingRoutes\\Details.cshtml",
+              "RelativeToolTip": "Views\\HikingRoutes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:26:56.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ParksApiController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\ParksApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiControllers\\ParksApiController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\ParksApiController.cs",
+              "RelativeToolTip": "Controllers\\ApiControllers\\ParksApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:01:25.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RouteFeedback\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\RouteFeedback\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RouteFeedback\\Index.cshtml",
+              "RelativeToolTip": "Views\\RouteFeedback\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:28:59.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ImageModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RouteImages\\_ImageModal.cshtml",
+              "RelativeDocumentMoniker": "Views\\RouteImages\\_ImageModal.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RouteImages\\_ImageModal.cshtml",
+              "RelativeToolTip": "Views\\RouteImages\\_ImageModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:28:50.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ImageUploadModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RouteImages\\_ImageUploadModal.cshtml",
+              "RelativeDocumentMoniker": "Views\\RouteImages\\_ImageUploadModal.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RouteImages\\_ImageUploadModal.cshtml",
+              "RelativeToolTip": "Views\\RouteImages\\_ImageUploadModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:28:43.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RouteImages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\RouteImages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RouteImages\\Index.cshtml",
+              "RelativeToolTip": "Views\\RouteImages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:28:39.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RoutePoints\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\RoutePoints\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\RoutePoints\\Index.cshtml",
+              "RelativeToolTip": "Views\\RoutePoints\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:28:30.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:28:25.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:28:23.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:28:01.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\HikingRoutes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\HikingRoutes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\HikingRoutes\\Index.cshtml",
+              "RelativeToolTip": "Views\\HikingRoutes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:26:51.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ParkDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Routes\\ParkDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Routes\\ParkDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Routes\\ParkDto.cs",
+              "RelativeToolTip": "DTOs\\Routes\\ParkDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:25:29.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HikingRouteDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Routes\\HikingRouteDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Routes\\HikingRouteDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Routes\\HikingRouteDto.cs",
+              "RelativeToolTip": "DTOs\\Routes\\HikingRouteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:25:22.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RouteFeedbackDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Routes\\RouteFeedbackDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Routes\\RouteFeedbackDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Routes\\RouteFeedbackDto.cs",
+              "RelativeToolTip": "DTOs\\Routes\\RouteFeedbackDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:25:35.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RouteImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Routes\\RouteImageDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Routes\\RouteImageDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Routes\\RouteImageDto.cs",
+              "RelativeToolTip": "DTOs\\Routes\\RouteImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:25:40.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RoutePointDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Routes\\RoutePointDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Routes\\RoutePointDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Routes\\RoutePointDto.cs",
+              "RelativeToolTip": "DTOs\\Routes\\RoutePointDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:25:45.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Parks\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Parks\\Index.cshtml",
+              "RelativeToolTip": "Views\\Parks\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:27:16.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Dashboard\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\About.cshtml",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Views\\Dashboard\\About.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T21:26:22.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RouteImageService.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\RouteImageService.cs",
+              "RelativeDocumentMoniker": "Services\\RouteImageService.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\RouteImageService.cs",
+              "RelativeToolTip": "Services\\RouteImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:24:34.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RouteFeedbackService.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\RouteFeedbackService.cs",
+              "RelativeDocumentMoniker": "Services\\RouteFeedbackService.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\RouteFeedbackService.cs",
+              "RelativeToolTip": "Services\\RouteFeedbackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:24:19.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MapboxGeocodingService.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\MapboxGeocodingService.cs",
+              "RelativeDocumentMoniker": "Services\\MapboxGeocodingService.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Services\\MapboxGeocodingService.cs",
+              "RelativeToolTip": "Services\\MapboxGeocodingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:23:57.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IRouteImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IRouteImageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRouteImageRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IRouteImageRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRouteImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:23:17.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IRouteFeedbackRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IRouteFeedbackRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRouteFeedbackRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IRouteFeedbackRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRouteFeedbackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:23:10.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IHikingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IHikingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IHikingRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IHikingRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IHikingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:22:56.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RouteImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\RouteImageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RouteImageRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\RouteImageRepository.cs",
+              "RelativeToolTip": "Repositories\\RouteImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:22:16.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IDashboardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IDashboardRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IDashboardRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\Interfaces\\IDashboardRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IDashboardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:48:35.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RouteFeedbackRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\RouteFeedbackRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RouteFeedbackRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\RouteFeedbackRepository.cs",
+              "RelativeToolTip": "Repositories\\RouteFeedbackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:22:08.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "HikingRouteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\HikingRouteRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\HikingRouteRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\HikingRouteRepository.cs",
+              "RelativeToolTip": "Repositories\\HikingRouteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:21:32.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "RoutePoints.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\RoutePoints.cs",
+              "RelativeDocumentMoniker": "Models\\RoutePoints.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\RoutePoints.cs",
+              "RelativeToolTip": "Models\\RoutePoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:21:03.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RouteImages.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\RouteImages.cs",
+              "RelativeDocumentMoniker": "Models\\RouteImages.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\RouteImages.cs",
+              "RelativeToolTip": "Models\\RouteImages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:20:54.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "RouteFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\RouteFeedback.cs",
+              "RelativeDocumentMoniker": "Models\\RouteFeedback.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\RouteFeedback.cs",
+              "RelativeToolTip": "Models\\RouteFeedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:20:49.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Park.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\Park.cs",
+              "RelativeDocumentMoniker": "Models\\Park.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\Park.cs",
+              "RelativeToolTip": "Models\\Park.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:20:35.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DashboardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\DashboardRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DashboardRepository.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Repositories\\DashboardRepository.cs",
+              "RelativeToolTip": "Repositories\\DashboardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:49:32.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "HikingRoute.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\HikingRoute.cs",
+              "RelativeDocumentMoniker": "Models\\HikingRoute.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\HikingRoute.cs",
+              "RelativeToolTip": "Models\\HikingRoute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:20:31.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:20:26.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "MapboxResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Mapbox\\MapboxResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Mapbox\\MapboxResponseDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Mapbox\\MapboxResponseDto.cs",
+              "RelativeToolTip": "DTOs\\Mapbox\\MapboxResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:19:55.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "MapboxGeometryDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Mapbox\\MapboxGeometryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Mapbox\\MapboxGeometryDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Mapbox\\MapboxGeometryDto.cs",
+              "RelativeToolTip": "DTOs\\Mapbox\\MapboxGeometryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:19:50.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "MapboxFeatureDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Mapbox\\MapboxFeatureDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Mapbox\\MapboxFeatureDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Mapbox\\MapboxFeatureDto.cs",
+              "RelativeToolTip": "DTOs\\Mapbox\\MapboxFeatureDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:19:45.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "MarkerRouteDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Map\\MarkerRouteDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Map\\MarkerRouteDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Map\\MarkerRouteDto.cs",
+              "RelativeToolTip": "DTOs\\Map\\MarkerRouteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:19:39.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "MarkerDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Map\\MarkerDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Map\\MarkerDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Map\\MarkerDto.cs",
+              "RelativeToolTip": "DTOs\\Map\\MarkerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:19:32.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RoutePointsController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\RoutePointsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MvcControllers\\RoutePointsController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\RoutePointsController.cs",
+              "RelativeToolTip": "Controllers\\MvcControllers\\RoutePointsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:19:07.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "RouteImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\RouteImagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MvcControllers\\RouteImagesController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\RouteImagesController.cs",
+              "RelativeToolTip": "Controllers\\MvcControllers\\RouteImagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:19:00.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "RouteFeedbackContoller.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\RouteFeedbackContoller.cs",
+              "RelativeDocumentMoniker": "Controllers\\MvcControllers\\RouteFeedbackContoller.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\RouteFeedbackContoller.cs",
+              "RelativeToolTip": "Controllers\\MvcControllers\\RouteFeedbackContoller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:18:53.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ParksController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\ParksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MvcControllers\\ParksController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\ParksController.cs",
+              "RelativeToolTip": "Controllers\\MvcControllers\\ParksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:18:42.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MvcControllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\MvcControllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:18:40.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "HikingRoutesController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\HikingRoutesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MvcControllers\\HikingRoutesController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\MvcControllers\\HikingRoutesController.cs",
+              "RelativeToolTip": "Controllers\\MvcControllers\\HikingRoutesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:18:30.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "RoutePointsApiController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\RoutePointsApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiControllers\\RoutePointsApiController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\RoutePointsApiController.cs",
+              "RelativeToolTip": "Controllers\\ApiControllers\\RoutePointsApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:18:10.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "RouteImagesApiController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\RouteImagesApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiControllers\\RouteImagesApiController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\RouteImagesApiController.cs",
+              "RelativeToolTip": "Controllers\\ApiControllers\\RouteImagesApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:17:59.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "RouteFeedbackApiController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\RouteFeedbackApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiControllers\\RouteFeedbackApiController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\RouteFeedbackApiController.cs",
+              "RelativeToolTip": "Controllers\\ApiControllers\\RouteFeedbackApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T21:17:50.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "HikingRoutesApiController.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\HikingRoutesApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiControllers\\HikingRoutesApiController.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\Controllers\\ApiControllers\\HikingRoutesApiController.cs",
+              "RelativeToolTip": "Controllers\\ApiControllers\\HikingRoutesApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:58:55.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "RouteCountDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\RouteCountDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dashboard\\RouteCountDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\RouteCountDto.cs",
+              "RelativeToolTip": "DTOs\\Dashboard\\RouteCountDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:55:17.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "DashboardRouteDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\DashboardRouteDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dashboard\\DashboardRouteDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\DashboardRouteDto.cs",
+              "RelativeToolTip": "DTOs\\Dashboard\\DashboardRouteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:54:40.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "DashboardImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\DashboardImageDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dashboard\\DashboardImageDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\DashboardImageDto.cs",
+              "RelativeToolTip": "DTOs\\Dashboard\\DashboardImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:52:42.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "DashboardFeedbackDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\DashboardFeedbackDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dashboard\\DashboardFeedbackDto.cs",
+              "ToolTip": "C:\\Users\\sarar\\OneDrive\\Desktop\\repos\\HikingProjectFinal\\HikingFinalProject\\DTOs\\Dashboard\\DashboardFeedbackDto.cs",
+              "RelativeToolTip": "DTOs\\Dashboard\\DashboardFeedbackDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:52:08.535Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

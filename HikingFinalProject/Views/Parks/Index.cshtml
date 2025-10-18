@@ -1,0 +1,67 @@
+﻿@using HikingFinalProject.DTOs.Map
+@using HikingFinalProject.DTOs.Routes
+@model IEnumerable<ParkDto>
+@inject IConfiguration Configuration
+
+@{
+    ViewData["Title"] = "Parks";
+    var mapboxToken = Configuration["Mapbox:Token"];
+}
+
+<div class="container-fluid">
+    <h1 class="mb-4">Parks Dashboard</h1>
+
+    <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#createParkModal">Add New Park</button>
+
+    <table id="parksTable" class="table table-striped">
+        <thead>
+            <tr><th>Name</th><th>Location</th><th>Description</th><th>Actions</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var park in Model)
+            {
+                <tr>
+                    <td>@park.ParkName</td>
+                    <td>@park.Location</td>
+                    <td>@park.Description</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editParkModal"
+                                data-editparkid="@park.ParkID"
+                                data-editparkname="@park.ParkName"
+                                data-editlocation="@park.Location"
+                                data-editdescription="@park.Description"
+                                data-editimageurl="@park.ImageURL">
+                            Edit
+                        </button>
+
+                        <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteParkModal"
+                                data-deleteparkid="@park.ParkID"
+                                data-deleteparkname="@park.ParkName">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Map</h2>
+    <div id="parksMap" style="width:100%;height:400px;"></div>
+</div>
+
+@await Html.PartialAsync("_SharedModals")
+
+@section Scripts {
+    <script>
+        window.dashboardType = 'parks';
+        window.MAPBOX_TOKEN = '@mapboxToken';
+        window.dashboardMarkers = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model ?? Enumerable.Empty<ParkDto>()));
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.HikingApp?.initAll) HikingApp.initAll();
+        });
+    </script>
+}
+
+
+
+
