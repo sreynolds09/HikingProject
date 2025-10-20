@@ -92,8 +92,8 @@ namespace HikingFinalProject.Controllers.API
         // Upload and Parse GPX
         // ==============================
         [HttpPost("{routeId}/upload-gpx")]
-        [RequestSizeLimit(10_000_000)] // 10 MB
-        public async Task<IActionResult> UploadGpx(int routeId, IFormFile file, [FromQuery] bool parseImmediately = true)
+        [RequestSizeLimit(10_000_000)] // 10 MB limit
+        public async Task<IActionResult> UploadGpx(int routeId, IFormFile file)
         {
             if (file == null || file.Length == 0)
                 return BadRequest("No GPX file uploaded.");
@@ -102,79 +102,176 @@ namespace HikingFinalProject.Controllers.API
 
             try
             {
-                // Save to temp path
+                // Save to temp file
                 await using (var stream = System.IO.File.Create(tempPath))
                 {
                     await file.CopyToAsync(stream);
                 }
 
-                if (!parseImmediately)
-                {
-                    return Ok(new { Message = "GPX uploaded successfully (not parsed)." });
-                }
-
-                // Parse the GPX file
+                // Load and parse XML
                 var xml = await System.IO.File.ReadAllTextAsync(tempPath);
                 var gpx = XDocument.Parse(xml);
                 var ns = gpx.Root?.Name.Namespace ?? XNamespace.None;
 
+                // Support <trkpt> (track points) and <rtept> (route points)
                 var pts = gpx.Descendants(ns + "trkpt");
                 if (!pts.Any())
                     pts = gpx.Descendants(ns + "rtept");
 
-                var points = pts.Select((pt, i) => new RoutePointDto
-                {
-                    RouteID = routeId,
-                    latitude = (decimal?)double.Parse(pt.Attribute("lat")?.Value ?? "0", CultureInfo.InvariantCulture),
-                    longitude = (decimal?)double.Parse(pt.Attribute("lon")?.Value ?? "0", CultureInfo.InvariantCulture),
-                    elevation = pt.Element(ns + "ele")?.Value is string eStr && double.TryParse(eStr, out var e) ? (decimal?)e : null,
-                    pointOrder = i + 1,
-                    description = pt.Element(ns + "name")?.Value
-                                  ?? pt.Element(ns + "desc")?.Value
-                                  ?? $"Point {i + 1}"
-                }).ToList();
-
-                if (!points.Any())
+                if (!pts.Any())
                     return BadRequest("No valid GPX points found.");
 
+                // Parse all points
+                var points = pts.Select((pt, i) =>
+                {
+                    decimal lat = 0, lon = 0;
+                    double ele = 0;
+                    DateTime? time = null;
+
+                    if (double.TryParse(pt.Attribute("lat")?.Value, NumberStyles.Float, CultureInfo.InvariantCulture, out var latVal))
+                        lat = (decimal)latVal;
+                    if (double.TryParse(pt.Attribute("lon")?.Value, NumberStyles.Float, CultureInfo.InvariantCulture, out var lonVal))
+                        lon = (decimal)lonVal;
+                    if (double.TryParse(pt.Element(ns + "ele")?.Value, NumberStyles.Float, CultureInfo.InvariantCulture, out var eleVal))
+                        ele = eleVal;
+                    if (DateTime.TryParse(pt.Element(ns + "time")?.Value, out var timeVal))
+                        time = timeVal;
+
+                    return new RoutePointDto
+                    {
+                        RouteID = routeId,
+                        latitude = lat,
+                        longitude = lon,
+                        elevation = (decimal?)ele,
+                        time = time,
+                        pointOrder = i + 1,
+                        description = pt.Element(ns + "name")?.Value
+                                      ?? pt.Element(ns + "desc")?.Value
+                                      ?? $"Point {i + 1}"
+                    };
+                }).Where(p => p.latitude != 0 && p.longitude != 0).ToList();
+
+                if (!points.Any())
+                    return BadRequest("No valid coordinate data found in GPX file.");
+
+                // Delete existing points for the route (to prevent duplicates)
+                var existing = await pointService.GetByRouteIdAsync(routeId);
+                if (existing.Any())
+                {
+                    await pointService.DeleteBulkAsync(existing.Select(x => x.Id));
+                }
+
+                // Bulk insert new points
                 await pointService.AddBulkAsync(points);
 
-                // Optional: Convert to GeoJSON for the route
+                // Optional: build GeoJSON for mapping
                 var geoJson = new
                 {
                     type = "FeatureCollection",
                     features = new[]
                     {
-                        new {
-                            type = "Feature",
-                            geometry = new {
-                                type = "LineString",
-                                coordinates = points.Select(p => new [] { (double)p.longitude!.Value, (double)p.latitude!.Value }).ToArray()
-                            },
-                            properties = new { RouteId = routeId }
-                        }
-                    }
+                new {
+                    type = "Feature",
+                    geometry = new {
+                        type = "LineString",
+                        coordinates = points.Select(p => new [] {
+                            (double)p.longitude!.Value,
+                            (double)p.latitude!.Value,
+                            (double?)p.elevation
+                        }).ToArray()
+                    },
+                    properties = new { RouteId = routeId }
+                }
+            }
                 };
 
-                // Save GeoJSON back to route
+                // Update the route’s GeoJSON field if supported
                 await routeService.UpdateGeoJsonAsync(routeId, geoJson);
 
                 return Ok(new
                 {
-                    Message = $"GPX uploaded and parsed successfully for route {routeId}.",
+                    Message = $"✅ GPX parsed and stored successfully for route {routeId}.",
                     PointsAdded = points.Count,
-                    GeoJson = geoJson
+                    BoundingBox = new
+                    {
+                        MinLat = points.Min(p => p.latitude),
+                        MaxLat = points.Max(p => p.latitude),
+                        MinLon = points.Min(p => p.longitude),
+                        MaxLon = points.Max(p => p.longitude)
+                    },
+                    FirstPoint = points.First(),
+                    LastPoint = points.Last()
                 });
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
-                return StatusCode(500, $"Error processing GPX: {ex.Message}");
+                return StatusCode(500, new { Error = "Error processing GPX", Details = ex.Message });
             }
             finally
             {
                 if (System.IO.File.Exists(tempPath))
                     System.IO.File.Delete(tempPath);
             }
+        }
+
+        [HttpGet("{routeId}/download-gpx")]
+        public async Task<IActionResult> DownloadGpx(int routeId)
+        {
+            var route = await routeService.GetRouteByIdAsync(routeId);
+            if (route == null)
+                return NotFound($"Route with ID {routeId} not found.");
+
+            var points = await pointService.GetByRouteIdAsync(routeId);
+            if (points == null || !points.Any())
+                return NotFound($"No route points found for route ID {routeId}.");
+
+            // Build GPX XML document
+            XNamespace ns = "http://www.topografix.com/GPX/1/1";
+            var gpx = new XDocument(
+                new XDeclaration("1.0", "UTF-8", "yes"),
+                new XElement(ns + "gpx",
+                    new XAttribute("version", "1.1"),
+                    new XAttribute("creator", "HikingFinalProject"),
+                    new XAttribute(XNamespace.Xmlns + "xsi", "http://www.w3.org/2001/XMLSchema-instance"),
+                    new XAttribute(XNamespace.Xmlns + "gpx", "http://www.topografix.com/GPX/1/1"),
+                    new XElement(ns + "metadata",
+                        new XElement(ns + "name", route.RouteName ?? $"Route {routeId}"),
+                        new XElement(ns + "time", DateTime.UtcNow.ToString("O"))
+                    ),
+                    new XElement(ns + "trk",
+                        new XElement(ns + "name", route.RouteName ?? $"Route {routeId}"),
+                        new XElement(ns + "trkseg",
+                            from p in points
+                            orderby p.PointOrder
+                            select new XElement(ns + "trkpt",
+                                new XAttribute("lat", Convert.ToString(p.Latitude, CultureInfo.InvariantCulture) ?? "0"),
+                                new XAttribute("lon", Convert.ToString(p.Longitude, CultureInfo.InvariantCulture) ?? "0"),
+                                p.Elevation.HasValue
+                                    ? new XElement(ns + "ele", Convert.ToString(p.Elevation.Value, CultureInfo.InvariantCulture))
+                                    : null,
+                                p.Time.HasValue
+                                    ? new XElement(ns + "time", p.Time.Value.ToUniversalTime().ToString("O"))
+                                    : null,
+                                !string.IsNullOrWhiteSpace(p.Description)
+                                    ? new XElement(ns + "desc", p.Description)
+                                    : null
+                            )
+                        )
+                    )
+                )
+            );
+
+            // Convert to memory stream for download
+            var memoryStream = new MemoryStream();
+            using (var writer = new StreamWriter(memoryStream, new System.Text.UTF8Encoding(false), 1024, true))
+            {
+                gpx.Save(writer);
+            }
+            memoryStream.Position = 0;
+
+            var fileName = $"{route.RouteName ?? $"route_{routeId}"}_{DateTime.UtcNow:yyyyMMdd_HHmm}.gpx";
+
+            return File(memoryStream, "application/gpx+xml", fileName);
         }
     }
 }
